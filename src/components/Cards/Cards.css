@@ -1,8 +1,9 @@
 .card-width{
-    width:30%;
+    /* width:30%; */
     margin-bottom:30px;
     margin-top:30px;
 }
+
 .card-width .card-image{
     height:140px!important;
     border-radius:15px;
@@ -13,4 +14,10 @@
 .card-width Button{
     display: block;
     margin:0 auto;
+}
+
+@media only screen and (max-width: 600px){
+    .card-width .card{
+        width:100%!important;
+    }
 }

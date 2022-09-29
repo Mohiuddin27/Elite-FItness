@@ -15,7 +15,7 @@ const {name,picture,age,description,time}=props.singlecard;
         
               
            <div className="card-width">
-               <Card style={{ width: '14rem' }}>
+               <Card style={{ width: '14rem' }} className="card">
                     <Card.Img variant="top" src={picture} className="w-100 p-2 card-image" alt=""/>
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>

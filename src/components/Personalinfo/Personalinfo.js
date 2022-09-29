@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import manimg from '../../images/man.png';
-import { addToDb } from '../../utilities/fakedb';
+import { addToDb, getStoredCart } from '../../utilities/fakedb';
 // import { addToDb } from '../../utilities/fakedb';
 import './Personalinfo.css';
+import Button from 'react-bootstrap/Button';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Personalinfo = (props) => {
     const {items}=props;
@@ -19,6 +23,11 @@ const Personalinfo = (props) => {
         addToDb(breaks);
         
     }
+    const getData=localStorage.getItem("break-time");
+    // getData.map((data)=>console.log(data));
+    const result=JSON.parse(getData);
+    const finalResult=result.value;
+    const notify = () => toast("Activity Completed!");
    
 
     return (
@@ -72,8 +81,14 @@ const Personalinfo = (props) => {
             <Container>
                 <div class="break-time">
                     <span><strong>Break time</strong></span><span class="ex-span">
-                        {breaks} seconds</span>
+                        {finalResult} seconds</span>
 
+                </div>
+            </Container>
+            <Container>
+            <div class="btn-button">
+                <Button className="mt-5 btn-sm w-100" onClick={notify}>Activity Completed</Button>
+                <ToastContainer />
                 </div>
             </Container>
 

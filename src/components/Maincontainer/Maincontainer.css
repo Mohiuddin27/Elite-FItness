@@ -16,3 +16,17 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+@media only screen and (max-width: 600px){
+    .main{
+        display: flex!important;
+        flex-direction: column-reverse!important;
+
+    }
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .cards-container Card{
+        width:100%;
+    }
+}

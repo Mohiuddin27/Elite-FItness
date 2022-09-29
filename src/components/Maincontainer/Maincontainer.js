@@ -25,7 +25,7 @@ const Maincontainer = () => {
         <div className="main">
             <Container>
                 <Row>
-                    <Col md={8}>
+                    <Col md={8} sm={12} lg={8}>
                         <div class="card-container">
                             <img src={logo} alt=""></img><span style={{ textTransform: 'uppercase', marginRight: '20px', fontSize: '20px', color: 'rgba(31, 92, 234, 0.957)', fontWeight: '600' }}>Elite Fitness</span>
                             <h5 style={{ marginTop: '30px' }}>Select today’s exercise</h5>

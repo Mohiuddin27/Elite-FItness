@@ -70,3 +70,7 @@
 .break h6{
     cursor: pointer;
 }
+.btn-button{
+    width:80%!important;
+    margin:0 auto;
+}
