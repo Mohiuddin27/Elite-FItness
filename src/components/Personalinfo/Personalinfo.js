@@ -25,9 +25,14 @@ const Personalinfo = (props) => {
     }
     const getData=localStorage.getItem("break-time");
     // getData.map((data)=>console.log(data));
+    let finalResult=0;
     const result=JSON.parse(getData);
-    const finalResult=result.value;
+    if(result){
+        finalResult=result.value;
+    }
+
     const notify = () => toast("Activity Completed!");
+    
    
 
     return (

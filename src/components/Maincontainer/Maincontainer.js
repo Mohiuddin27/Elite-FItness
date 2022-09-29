@@ -17,7 +17,6 @@ const Maincontainer = () => {
             .then(data => setCard(data))
     }, [])
    const handleClick=(item)=>{
-    console.log(item);
     const newItems=[...items,item];
     setItems(newItems);
    }
