@@ -1,0 +1,72 @@
+.personal-info{
+  background-color: white;
+  position:sticky;
+  top:0;
+  height:700px;
+}
+.personal-header{
+    display: flex;
+    
+}
+.personal-header h4{
+    margin-top:15px;
+}
+.personal-header img{
+    width:150px;
+    height:100px;
+    object-fit: cover;
+    border-radius: 50%;;
+}
+.body{
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+    margin:0 auto;
+    margin-top:25px;
+    background-color: rgba(69, 115, 144, 0.151);
+    padding:8px;
+    border-radius: 10px;
+
+}
+.body p{
+    color:rgba(163, 162, 162, 0.776);
+
+}
+.break{
+    display:flex;
+    justify-content: space-evenly;
+    width:80%;
+    margin:0 auto;
+    margin-top:25px;
+    background-color: rgba(69, 115, 144, 0.151);
+    padding:8px;
+    border-radius: 10px;
+}
+.break h6{
+    background-color: white;
+    border-radius: 50%;
+    padding:10px;
+}
+.exercise-time{
+    display:flex;
+    justify-content: space-around;
+    width:80%;
+    margin:0 auto;
+    margin-top:25px;
+    background-color: rgba(69, 115, 144, 0.151);
+    padding:8px;
+    border-radius: 10px;
+}
+.break-time{
+    display:flex;
+    justify-content: space-around;
+    width:80%;
+    margin:0 auto;
+    margin-top:25px;
+    background-color: rgba(69, 115, 144, 0.151);
+    padding:8px;
+    border-radius: 10px;
+}
+.break h6{
+    cursor: pointer;
+}

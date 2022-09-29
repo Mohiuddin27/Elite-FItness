@@ -1,0 +1,51 @@
+[
+  {
+    "id": "6334e2b78bfeff72aad81cc1",
+    "name": "Walking",
+    "picture": "https://i.insider.com/5eea8a48f0f419386721f9e8?width=1136&format=jpeg",
+     "age": "20-30",
+    "description": "Any exercise program should include cardiovascular exercise, which strengthens the heart and burns calories. ",
+    "time": "130"
+  },
+  {
+    "id": "6334e2b75aa0f1d63993e7a9",
+    "name": "Squats",
+    "picture": "https://marathonhandbook.com/wp-content/uploads/2022/05/How-Many-Squats-Should-I-Do-A-Day-2.jpg",
+     "age": "22-32",
+    "description": "Strength training is essential, the experts say. The more muscular fitness you have, says Cotton, the greater the capacity you have to burn calories.",
+    "time": "200"
+  },
+  {
+    "id": "6334e2b766ff8ded403ded59",
+    "name": "Lunges",
+    "picture": "https://www.mensjournal.com/wp-content/uploads/2018/02/landminelunge.jpg?quality=82&strip=all",
+    "age": "18-35",
+    "description": "A lunge is a great exercise because it mimics life, it mimics walking,only exaggerated, says Petersen.",
+    "time": "100"
+  },
+  {
+    "id": "6334e2b7f829348560559875",
+    "name": "Push-ups",
+    "picture": "https://post.greatist.com/wp-content/uploads/sites/2/2019/04/FEATURE1-1200x628.jpg",
+    "age": "20-40",
+	"description":"Push-ups can be done at any level of fitness, says Cotton: For someone who is at a more beginning level, start by pushing from the kitchen-counter height. ",
+    "time": "300"
+  },
+  {
+    "id": "6334e2b73b6bfcf65202ab42",
+    "name": "Abdominal Crunches",
+    "picture": "https://media.self.com/photos/5fbc745fe2e5c691f853fc85/2:1/w_1280,c_limit/061919_SELF_0101.jpg",
+     "age": "15-30",
+	"description":"Crunches can be excellent, but if they're not done correctly, with the back arching, they can actually weaken the abdominals",
+    "time": "100"
+  },
+  {
+    "id": "6334e2b7742e05415f270435",
+    "name": "Bent-over Row",
+    "picture": "https://www.care2curephysiotherapy.com/wp-content/uploads/2022/01/bent-over-row.jpg",
+     "age": "20-45",
+	"description":"Talk about bang for the buck: This exercise works all the major muscles of the upper back, as well as the biceps.",
+    "time": "300"
+  }
+  
+]
