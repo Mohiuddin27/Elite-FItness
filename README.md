@@ -1,3 +1,7 @@
+# Live link of the project.
+Open [https://shimmering-froyo-f07727.netlify.app/](https://shimmering-froyo-f07727.netlify.app/) to view it.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
